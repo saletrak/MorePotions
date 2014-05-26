@@ -38,6 +38,8 @@ public class PotionFactory {
 		
 		potItem.setAmount(amount);
 		
+		//Test Again
+		
 		return potItem;
 		
 	}
