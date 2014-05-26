@@ -38,7 +38,7 @@ public class PotionFactory {
 		
 		potItem.setAmount(amount);
 		
-		//Test Again
+		//Test asd
 		
 		return potItem;
 		
