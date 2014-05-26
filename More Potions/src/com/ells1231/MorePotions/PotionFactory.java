@@ -37,7 +37,7 @@ public class PotionFactory {
 		potItem.setItemMeta(meta);
 		
 		potItem.setAmount(amount);
-		//Test
+		
 		return potItem;
 		
 	}
