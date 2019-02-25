@@ -52,7 +52,7 @@ public class BrewListener implements Listener {
 				}
 				if (Pot != null && !InitialPot){
 					int NewDamage = Plugin.ConstructDurability(Ingredient.getType() == Material.GLOWSTONE_DUST,
-																Ingredient.getType() == Material.SULPHUR,
+																Ingredient.getType() == Material.GUNPOWDER,
 																Ingredient.getType() == Material.REDSTONE,
 																Pot.getLook(), I.getDurability());
 					ItemStack NewPotion = Pot.MakePotion(NewDamage);

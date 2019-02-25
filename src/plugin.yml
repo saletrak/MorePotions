@@ -1,0 +1,60 @@
+name: MorePotions
+main: com.ells1231.MorePotions.Main
+version: 1.9
+api-version: 1.13
+
+commands:
+  MP:
+    description: Base command for more potions.
+    usage: /MP <give|list|recipes|reload>
+
+permissions:
+  MorePotions.Give:
+    description: Allows you to use the /MP give command.
+
+  MorePotions.Potion.Absorption:
+    description: Allows you to use Absorption potion.
+
+  MorePotions.Potion.Blindness:
+    description: Allows you to use Blindness potion.«
+
+  MorePotions.Potion.Confustion:
+    description: Allows you to use Confustion(Nausea) potion.
+
+  MorePotions.Potion.DamageResistance:
+    description: Allows you to use Damage Resistance potion.
+
+  MorePotions.Potion.FastDigging:
+    description: Allows you to use Fast Digging(Haste) potion.
+
+  MorePotions.Potion.HealthBoost:
+    description: Allows you to use Health Boost potion.
+
+  MorePotions.Potion.Hunger:
+    description: Allows you to use Hunger potion.
+
+  MorePotions.Potion.Jump:
+    description: Allows you to use Jump(Leaping) potion.
+
+  MorePotions.Potion.Saturation:
+    description: Allows you to use Saturation potion.
+
+  MorePotions.Potion.SlowDigging:
+    description: Allows you to use Slow Digging(Dullness) potion.
+
+  MorePotions.Potion.WaterBreathing:
+    description: Allows you to use Water Breathing potion.
+
+  MorePotions.Potion.Wither:
+    description: Allows you to use Wither(Decay) potion.
+
+  MorePotions.Reload:
+    description: Allows you to use the /MP Reload command.
+
+  MorePotions.List:
+    description: Allows you to use the /MP List command.
+
+  MorePotions.Recipes:
+    description: Allows you to use the /MP Recipes command.
+        
+

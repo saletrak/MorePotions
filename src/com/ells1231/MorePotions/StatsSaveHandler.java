@@ -25,9 +25,10 @@ public class StatsSaveHandler {
 		StatsConfig = YamlConfiguration.loadConfiguration(StatsFile);
 
 		// Look for defaults in the jar
-		InputStream defConfigStream = Plugin.getResource("StatsSave");
-		if (defConfigStream != null) {
-			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
+		//InputStream defConfigStream = Plugin.getResource();
+		File defConfigFile = new File(Plugin.getDataFolder(), "StatsSave");
+		if (defConfigFile.exists()) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigFile);
 			StatsConfig.setDefaults(defConfig);
 		}
 	}
